@@ -1,0 +1,6 @@
+{
+  "build": {
+    "builder": "paketobuildpacks/builder:base"
+  },
+  "start": "apt update && apt install -y xvfb && xvfb-run -a python bot.py"
+}
